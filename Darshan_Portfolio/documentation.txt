@@ -1,0 +1,2 @@
+1.In layout.handlebars file, the ul under nav, was applied the 'ml-auto' class instead of 'mr-auto' to pull it to the right
+side of the navbar.

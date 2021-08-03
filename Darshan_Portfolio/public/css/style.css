@@ -1,0 +1,160 @@
+.header{
+  margin-right:5px;
+}
+.home{
+  text-align: center;
+  position:relative;    
+}
+#home_img{
+
+  border:5px solid white;
+  border-radius: 50%;
+  max-width:300px;
+  max-height: 450px;
+}
+.body_color{
+  background: #A1FFCE;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FAFFD1, #ff7700); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.quote-left{
+  font-size: 30px;
+  margin:10px;
+}
+
+.about-img{
+  margin:10px;
+}
+
+/*Contact form box*/
+
+.form-box{
+  padding: 25px;
+  border-radius: 4px;
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 12px 30px 0 rgba(0, 0, 0, 0.19);
+  background: rgba(0,0,0,0.4);
+  
+}
+
+/*Social Icons*/
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+.social {
+  text-align: center; }
+  .social__item {
+    display: inline-block;
+    margin: 10px; }
+  .social .fa {
+    background: #fff;
+    border-radius: 35px;
+    color: #818181;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    position: relative;
+    text-align: center;
+    transition: all .2s;
+     }
+    
+  .social .fa-facebook:hover {
+    box-shadow: 0 0 15px rgba(59, 89, 152, 0.5) inset;
+    color: #3b5998; }
+  .social .fa-github:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) inset;
+    color: #000000; }
+  .social .fa-soundcloud:hover {
+    box-shadow: 0 0 15px rgba(255, 119, 0, 0.5) inset;
+    color: #ff7700; }
+  .social .fa-quora:hover {
+    box-shadow: 0 0 15px rgba(203, 32, 39, 0.5) inset;
+    color: #B31D1A; }
+  .social .fa-linkedin:hover {
+    box-shadow: 0 0 15px rgba(0, 123, 182, 0.5) inset;
+    color: #007bb6; }
+ 
+/*# sourceMappingURL=jquery.social-buttons.css.map */
+@media only screen and (max-width: 500px) {
+  .social .fa {
+    background: #fff;
+    border-radius: 35px;
+    color: #818181;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    transition: all .2s;
+     }    
+ 
+     /* Projects Styles */
+     * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f1f1f1;
+      padding: 20px;
+      font-family: Arial;
+    }
+    /* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+}
